@@ -1,5 +1,5 @@
 ---
-title: Catalog
+title: 0. Catalog
 type: guide
 order: 0
 ---

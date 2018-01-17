@@ -8,6 +8,9 @@
             <% if (fileName === 'guide/01.thinking-reactively.html') { %>
                 <li><h3>书籍内容</h3></li>
             <% } %>
+            <% if (fileName === 'guide/11.appendix-a.html') { %>
+                <li><h3>附录</h3></li>
+            <% } %>
         <% } %>
         <li>
             <a href="<%- url_for(p.path) %>" class="sidebar-link<%- page.title === p.title ? ' current' : '' %><%- p.is_new ? ' new' : '' %>"><%- p.title %></a>
